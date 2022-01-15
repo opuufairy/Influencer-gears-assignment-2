@@ -1,0 +1,170 @@
+/* --------- Mobile devices ----------- */
+@media only screen and (max-width: 688px) {
+  .site-wd-xl {
+    width: 90%;
+  }
+  .site-wd-md {
+    width: 90%;
+  }
+  .section-padding {
+    padding: 20px;
+  }
+  .main-container {
+    display: grid;
+    grid-template-rows: repeat(1fr);
+    justify-items: center;
+  }
+
+  .main-menu {
+    display: none;
+  }
+
+  .hero-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+  .hero-content {
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .hero-featured-img {
+    margin-top: 30px;
+  }
+  .hero-featured-img {
+    background-size: 95%;
+  }
+  .hero-section:hover .hero-featured-img img {
+    transform: none;
+  }
+  .brands-img {
+    display: none;
+  }
+  .brands-img-mobile {
+    display: block;
+    margin-bottom: 30px;
+  }
+  .brand-grid-four {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: stretch;
+    justify-items: center;
+  }
+  .brand-grid-three {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+  }
+  .popular-product-title h2 {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .popular-products {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
+  .contact-section h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+  }
+  .contact-info {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+  .site-wd-xl {
+    width: 90%;
+  }
+  .site-wd-md {
+    width: 90%;
+  }
+  .section-padding {
+    padding: 20px;
+  }
+  .main-container {
+    display: grid;
+    grid-template-rows: repeat(1fr);
+    justify-items: center;
+  }
+  .top-bar {
+    display: grid;
+    grid-template-columns: repeat(240px, 1fr);
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+  }
+
+  .main-menu {
+    display: block;
+  }
+  .hero-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+  .hero-content {
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .hero-featured-img {
+    margin-top: 30px;
+  }
+  .hero-section:hover .hero-featured-img img {
+    transform: none;
+  }
+  .brands-img {
+    display: block;
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    margin-bottom: 30px;
+  }
+  .brand-grid-four {
+    display: none;
+  }
+  .brand-grid-three {
+    display: none;
+  }
+
+  .popular-product-title h2 {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .popular-products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  .contact-section h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+  }
+  .contact-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 30px;
+  }
+}

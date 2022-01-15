@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap");
+/* -----Base CSS------ */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #3a3a3a;
+  line-height: 26px;
+  background-color: #ffffff;
+}
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  line-height: 28px;
+}
+h1 {
+  font-size: 50px;
+  line-height: 65px;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+.site-wd-xl {
+  width: 1200px;
+}
+.site-wd-md {
+  width: 1050px;
+}
+.site-btn-primary {
+  background-color: #e02c6d;
+  color: #fff;
+  padding: 10px 41px;
+  border-radius: 30px;
+}
+.site-btn-primary i {
+  padding-left: 12px;
+}
+.section-padding {
+  padding: 80px 0;
+}
+
+/* ------Top Section CSS------- */
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  justify-items: center;
+}
+
+.site_logo h1 {
+  font-size: 24px;
+}
+
+.top-bar {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+nav.main-menu ul {
+  display: flex;
+}
+nav.main-menu ul li {
+  list-style: none;
+}
+
+nav.main-menu ul li a {
+  color: #333;
+  padding: 5px 15px;
+  font-weight: 600;
+}
+nav.main-menu ul li a:hover {
+  color: #e02c6d;
+  transition: 0.3s ease-in;
+}
+
+.hero-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 50px;
+  margin-bottom: 30px;
+  justify-items: end;
+}
+
+.hero-content h1 {
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+.hero-content p {
+  margin-bottom: 30px;
+}
+
+.hero-featured-img img {
+  padding-bottom: 18px;
+}
+.hero-section:hover .hero-featured-img img {
+  transform: scale(1.2);
+  transition: transform 2s ease-in-out;
+}
+
+.hero-featured-img {
+  background-image: url("img/images/main-camera-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* -----Brand Section CSS------ */
+.brands-img {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  align-items: center;
+  padding: 25px 0px;
+  margin: 30px 0;
+  border-top: 2px solid #eee;
+  border-bottom: 2px solid #eee;
+  justify-items: center;
+}
+.brands-img-mobile {
+  display: none;
+}
+
+/* -------Product Section CSS------- */
+
+.popular-product-title h2 {
+  text-align: center;
+  padding-bottom: 60px;
+}
+.popular-products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.single-product-img img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.single-product {
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #0000001a;
+}
+.single-product-details h2 {
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+h2.product-price {
+  font-weight: 400;
+  font-size: 24px;
+}
+.product-rating {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 6px;
+}
+.rating-icon i {
+  color: #fb8200;
+}
+
+.rating-number {
+  font-weight: 600;
+}
+p.product-sub-title {
+  color: #787885;
+}
+
+p.stock {
+  color: #787885;
+}
+p.out-of-stock {
+  color: #e02c6d;
+}
+
+p.product-protection {
+  color: #787885;
+}
+.see-more {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 35px;
+}
+a.see-more-btn {
+  color: #e02c6d;
+  font-weight: 600;
+}
+a.see-more-btn i {
+  padding-left: 6px;
+}
+
+/* ---------Contact us CSS---------- */
+.contact-section h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 50px;
+}
+.phone-number,
+.location,
+.email {
+  text-align: center;
+}
+.phone-icon i,
+.location-icon i,
+.email-icon i {
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: #e02c6d;
+}
+.maps-img img {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 4px 2px 9px #eee;
+}
+
+/* --------Footer Section CSS-------- */
+.site-footer-area {
+  background-color: #0a0826;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+  color: #fff;
+  text-align: center;
+}
+.footer-contect h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+.footer-contect p {
+  font-weight: 400;
+  font-size: 14px;
+}
+.social-icons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-icons i {
+  background-color: #22203b;
+  padding: 12px;
+  border-radius: 50px;
+  font-size: 16px;
+  width: 16px;
+  height: 16px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+.social-icons i:hover {
+  background-color: #e02c6d;
+  transition: 0.5s ease-in;
+  cursor: pointer;
+}
